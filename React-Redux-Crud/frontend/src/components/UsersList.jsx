@@ -21,7 +21,7 @@ const UserList = () => {
         api.get('/api/admin/users/')
             .then(response => {
                 dispatch(setUsers(response.data));
-                dispatch(setFilteredUsers(response.data)); 
+                dispatch(setFilteredUsers(response.data));
             })
             .catch(error => {
                 setError('Failed to fetch users');
