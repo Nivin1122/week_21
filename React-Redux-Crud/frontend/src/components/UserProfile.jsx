@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import api, { fetchData } from '../api'; // Ensure correct import path for api
+import api, { fetchData } from '../api';
 import { setUserData } from '../slices/userprofileSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';

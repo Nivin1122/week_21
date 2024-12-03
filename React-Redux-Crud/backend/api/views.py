@@ -28,7 +28,7 @@ class CustomTokenObtainPairView(TokenObtainPairView):
 
         token = serializer.validated_data['access']  
 
-        user = serializer.user  
+        user = serializer.user
 
         response_data = {
             'access': str(token),

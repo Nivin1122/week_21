@@ -13,7 +13,7 @@ const UserList = () => {
         state.userslist
     )
 
-    const dispatch = useDispatch()
+    const dispatch = useDispatch();
 
     const navigate = useNavigate();
     
